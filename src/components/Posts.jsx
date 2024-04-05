@@ -23,9 +23,9 @@ function Posts({ posts, loading }) {
         );
     } else {
         return (
-            <ul>
+            <ul className="space-y-2">
                 {posts.map((post) => (
-                    <li className="border p-3" key={post.id}>
+                    <li className="border border-green-600 p-3" key={post.id}>
                         {post.title}
                     </li>
                 ))}
