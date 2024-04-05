@@ -28,8 +28,8 @@ This is a practice repository of the [Frontend Pagination](https://youtu.be/IYCa
 
 ### Links
 
--   Solution URL: [GitHub]()
--   Live Site URL: [Vercel]()
+-   Solution URL: [GitHub](https://github.com/mikailafsin/frontend-pagination-with-react)
+-   Live Site URL: [Vercel](https://frontend-pagination-with-react.vercel.app/)
 
 ## My process
 
