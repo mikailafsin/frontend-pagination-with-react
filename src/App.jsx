@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Posts from "./components/Posts";
 
 function App() {
     const [posts, setPosts] = useState([]);
@@ -18,7 +19,12 @@ function App() {
         fetchPosts();
     }, []);
 
-    return <>Hello, World!</>;
+    return (
+        <div className="container p-6">
+            <h1 className="mb-3 text-2xl font-medium text-green-600">My Blog</h1>
+            <Posts posts={posts} loading={loading} />
+        </div>
+    );
 }
 
 export default App;
