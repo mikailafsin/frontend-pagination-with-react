@@ -10,7 +10,7 @@ function Pagination({ postPerPage, totalPosts, paginate }) {
             <ul className="flex gap-3">
                 {pageNumbers.map((number) => (
                     <li key={number}>
-                        <a onClick={() => paginate(number)} className="inline-block border bg-green-600 px-2.5 font-medium text-white" href="!#">
+                        <a onClick={() => paginate(number)} className="inline-block border bg-green-600 px-2.5 font-medium text-white" href="#">
                             {number}
                         </a>
                     </li>
